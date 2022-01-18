@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT CARD PREVIEW</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+font-size: 24px;}
+        body{
+            background-color: hsl(217, 54%, 11%);
+        }
+        .container{
+            background-color: hsl(216, 50%, 16%);
+            width:500px;
+            height:800px;
+            margin:80px auto;
+            border:2px solid black;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            align-items: center;
+            border-radius: 20px;
+        }
+        .item{
+            /* border:2px solid black; */
+           /* background-color: aqua; */
+           margin-top: 15px;
+           /* margin-bottom: 0px; */
+           margin-left: 25px;
+           margin-right: 25px;
+           
+       }
+       img{
+           height: 350px;
+           width: 350px;
+           margin-top: 40px;
+       }
+       #heading{
+           width:350px;
+           padding: 20px;
+           color: white;
+           font-weight: 800;
+       }
+       #text1{
+           color: white;
+           width: 350px;
+           padding-left: 15px;
+           
+       }
+       hr{
+           color: white;
+           width: 350px;
+       }
+       #footer{
+           width:350px;
+           height: 80px;
+       }
+       #footer img{
+           width:50px;
+           height: 50px;
+           margin-top: 14px;
+           
+       }
+       #footer p{
+          position: relative;
+          left:67px;
+          bottom: 69px;
+          color: white;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div id="image"><img src="image-equilibrium.jpg" alt=""></div>
+            <div id="heading" class="item">Equilibrium #3429</div>
+            <div id="text1" class="item"><p>Our Equilibrium collection promotes balance and calm.</p></div>
+            <div id="text2" class="item"></div>
+            <hr>
+            <div id="footer" class="item">
+                <img src="image-avatar.png" alt="">
+                <p>Creation of <b>Jules Wyvern</b></p>
+            </div>
+    </div>
+</body>
+</html>
